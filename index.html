@@ -1,1 +1,193 @@
+<html>
+<head>
+<title>New Paris Bakery</title>
+	<link rel="shortcut icon" href="https://www.mass.gov/themes/custom/mass_theme/favicon.ico">
+<link rel="stylesheet" href="https://www.jackbotein.com/webdevelopment/fullpage.css">
+<script src="https://www.jackbotein.com/webdevelopment/fullpage.js"></script>
+</head>
+<body onload="samplecontactform()">
+<div class="header">
+<div class="logo">
+<b>New Paris Bakery</b>
+</div>
+<div class="nav">
+<span><a href="#1">About</a></span>
+<span><a href="#2">Our Offerings</a></span>
+<span><a href="#3">Order Online</a></span>
+</div>
+</div>
+
+<div id="fullpage">
+
+    <div class="section" style="background-image: URL('https://media-cdn.tripadvisor.com/media/photo-s/0b/9d/4e/02/new-paris-bakery-a-diamond.jpg');background-repeat:no-repeat;width:100%;height:100%;background-size:cover;">
+    <div class="aboutmebackgroundimage">
+    </div>
+    <div class="aboutmetext">
+Eclairs are the draw here that hooks many ($16 a dozen). Handmade, each one is slightly different: one a little broader than another, the icing on top thicker on one end, drippy on the other. But who cares. Each one is freshly made, the interior custard is dreamy, and the puffs are light and melt in your mouth. Owner Roula Kappas, the pastry chef these days, uses the original recipe from when the shop first opened on Boylston Street in Boston in 1919 by Kosmas Constantin, a Greek immigrant. It moved to its current location in 1929. Kappas and her late husband, Jimmy, bought the bakery from a cousin 32 years ago.
+    </div>
+    </div>
+    <div class="section">
+    <div class="heading">
+   <b>Our Offerings</b>
+    </div>
+        <div class="slide" data-anchor="slide1"><img src="https://scontent-bos3-1.xx.fbcdn.net/v/t31.18172-8/18954897_1555460857817976_5776668897819895351_o.jpg?_nc_cat=104&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=rqtLnMx1GcsAX-6inua&_nc_ht=scontent-bos3-1.xx&oh=9d25eecfee10404d9972954628e91f3f&oe=60F24C31" style="margin-top:110px;height:350px;"><center><div class="offeringlabel" style="width:150px">Eclairs</div></center></div>
+        <div class="slide" data-anchor="slide2"><img src="https://scontent-bos3-1.xx.fbcdn.net/v/t1.18169-9/18920633_1555348797829182_1083222398647842349_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=wd0DECn7-JwAX-JiVjR&_nc_oc=AQntnDiKl5fcqVhehZ-T86N5mYG3rfUm5mgsHT0v1oKD-4RbzhAwkRDwCF7DBhCMXbY&_nc_ht=scontent-bos3-1.xx&oh=283c2ea0d4f80b7b90b9bbcd6d6813c9&oe=60D14A24" style="margin-top:110px;height:350px;"><center><div class="offeringlabel" style="width:270px">Butter Cookies</div></center></div>
+        <div class="slide" data-anchor="slide3"><img src="https://scontent-bos3-1.xx.fbcdn.net/v/t31.18172-8/18921053_1555348514495877_2483986501415892971_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=SVu3Gk21OMIAX-3HgIa&_nc_ht=scontent-bos3-1.xx&oh=e1dc16af25c494b917b1ea21422a64e8&oe=60F1CACF" style="margin-top:110px;height:350px;"><center><div class="offeringlabel" style="width:300px">Fresh Fruit Slices</div></center></div>
+        <div class="slide" data-anchor="slide4"><img src="https://scontent-bos3-1.xx.fbcdn.net/v/t1.18169-9/18920216_1555243964506332_1130767599651190029_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=yS1zYIA-VOIAX_S1rkT&_nc_ht=scontent-bos3-1.xx&oh=66901b0bab26c98c50ca72b831fe2be4&oe=60D0C7DC" style="margin-top:110px;height:350px;"><center><div class="offeringlabel" style="width:200px">Madeleines</div></center></div>     
+    </div>
+    <div class="section">
+     <div class="heading" style="color:black;margin-top:-39px">
+   <b>Order Online</b>
+    </div>
+    <div class="spacer" style="height:159px"></div>
+      <div id="feedbackform"></div>
+    </div>
+</div>
+      <div class="footer">
+      Copyright © 2021 New Paris Bakery | Website by Jack Botein
+      </div>
+      
+<style>
+  .section {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  font-size: 3em;
+}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.header {
+  position:fixed;
+  z-index:999;
+  text-align:center;
+  top:0;
+  left:0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+font-size:20px;
+}
+
+.logo {
+    margin-top:8px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:.3em;
+    color:#005196;
+}
+
+.nav {
+  margin-top:20px;
+  margin-bottom:5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:15px;
+}
+
+span {
+  margin-left: 15px;
+  margin-right: 15px;
+  transition-duration:1.5s;
+}
+
+span:hover {
+  color:silver;
+}
+
+.aboutmetext {
+  font-size: 20px;
+  padding:2%;
+  width:90%;
+  margin-left:3%;
+  text-align:left;
+  background-color:rgba(255, 255, 255, .75);
+  border-radius:20px;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+.heading {
+  color:rgb(255,255,255);
+  position:absolute;
+  width:100%;
+  top:165px;
+  text-align:center;
+  font-size: 30px;
+  text-align:center;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+.offeringlabel {
+  font-size:25px;
+  color:black;
+  padding:5px;
+  background-color:white;
+  width:200px;
+  border-radius:100px;
+  margin-top:10px;
+}
+
+.footer {
+  width:100%;
+  position:fixed;
+  z-index:999;
+  bottom:0px;
+  font-size:10px;
+  padding:10px;
+  color:black;
+  background-color:rgba(255, 255, 255, .8);
+  text-align:center;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:black;
+  transition-duration:1s;
+}
+
+a:hover {
+  color:silver;
+}
+
+::selection {
+  color:white;
+  background-color:#005196;
+}
+</style>
+
+<script>
+  new fullpage('#fullpage', {
+  licenseKey: 'YOUR KEY HERE',
+  sectionsColor: ['white', 'black', 'white', '#ADD8E6'],
+});
+</script>
+
+ <script>
+  function samplecontactform() {
+  document.getElementById('feedbackform').innerHTML = "<iframe id='gform' src='https://jackbotein.github.io/onestopmarket/orderonlineform.html' style='border:0px #ffffff none;' name='myiFrame' autocomplete='off' scrolling='no' frameborder='1' marginheight='0px' marginwidth='0px' height='690px' width='100%' allowfullscreen></iframe>";
+loadtracker();
+}
+    </script>
+  <script type="text/javascript">
+var load = 0;
+
+function loadtracker() {
+document.getElementById('gform').onload = function() {
+    /*Execute on every reload on iFrame*/
+    load++;
+    if(load > 1){
+        /*Second reload is a submit*/
+        window.location.href = "https://jackbotein.github.io/newparisbakery";
+    }
+}
+}
+</script>
+</body>
+</html>
 
